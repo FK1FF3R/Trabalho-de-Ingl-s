@@ -49,7 +49,7 @@ header h1 {
 .container-principal {
     width: 100vw;
     height: 100vh;
-    background-image: url(./fundo.jpg);
+    background-image: url(/src/assets/img/fundo.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,6 +116,7 @@ header h1 {
     margin: 2rem 0;
     background-color: white;
     flex-wrap: wrap;
+    line-height: 3rem;
 }
 
 .texto {
@@ -222,6 +223,10 @@ ul li {
     body {
         width: 100dvw;
         height: 100dvh;
+    }
+
+    .container-principal{
+        height: auto;
     }
 }
 
